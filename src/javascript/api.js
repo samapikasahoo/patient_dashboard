@@ -94,7 +94,9 @@ function parseAllPatientData(patients) {
       return null;
     }
     let element = elementRaw.resource;
-    let patient = new Object();
+ 
+
+     // let patient = new Object();
     patient.name = element.name?.[0]?.family + " " + element.name?.[0]?.given?.[0];
     patient.id = element.id;
     patient.phone = element.telecom?.[0]?.value;

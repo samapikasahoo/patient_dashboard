@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/patient_dashboard/static/css/main.371bf961.chunk.css",
-    "main.js": "/patient_dashboard/static/js/main.d0ac0c72.chunk.js",
-    "main.js.map": "/patient_dashboard/static/js/main.d0ac0c72.chunk.js.map",
+    "main.js": "/patient_dashboard/static/js/main.be0b7573.chunk.js",
+    "main.js.map": "/patient_dashboard/static/js/main.be0b7573.chunk.js.map",
     "runtime-main.js": "/patient_dashboard/static/js/runtime-main.1e20edb6.js",
     "runtime-main.js.map": "/patient_dashboard/static/js/runtime-main.1e20edb6.js.map",
-    "static/css/2.de023833.chunk.css": "/patient_dashboard/static/css/2.de023833.chunk.css",
-    "static/js/2.c5344b12.chunk.js": "/patient_dashboard/static/js/2.c5344b12.chunk.js",
-    "static/js/2.c5344b12.chunk.js.map": "/patient_dashboard/static/js/2.c5344b12.chunk.js.map",
+    "static/css/2.b45a2824.chunk.css": "/patient_dashboard/static/css/2.b45a2824.chunk.css",
+    "static/js/2.b1796c27.chunk.js": "/patient_dashboard/static/js/2.b1796c27.chunk.js",
+    "static/js/2.b1796c27.chunk.js.map": "/patient_dashboard/static/js/2.b1796c27.chunk.js.map",
     "index.html": "/patient_dashboard/index.html",
-    "precache-manifest.09b0cfdf537c269ebc7bad89a99bfed4.js": "/patient_dashboard/precache-manifest.09b0cfdf537c269ebc7bad89a99bfed4.js",
+    "precache-manifest.4797655f0f4f3d86b11a1b4f3f5bde23.js": "/patient_dashboard/precache-manifest.4797655f0f4f3d86b11a1b4f3f5bde23.js",
     "service-worker.js": "/patient_dashboard/service-worker.js",
-    "static/css/2.de023833.chunk.css.map": "/patient_dashboard/static/css/2.de023833.chunk.css.map",
+    "static/css/2.b45a2824.chunk.css.map": "/patient_dashboard/static/css/2.b45a2824.chunk.css.map",
     "static/css/main.371bf961.chunk.css.map": "/patient_dashboard/static/css/main.371bf961.chunk.css.map",
-    "static/js/2.c5344b12.chunk.js.LICENSE.txt": "/patient_dashboard/static/js/2.c5344b12.chunk.js.LICENSE.txt",
+    "static/js/2.b1796c27.chunk.js.LICENSE.txt": "/patient_dashboard/static/js/2.b1796c27.chunk.js.LICENSE.txt",
     "static/media/fhir-dashboard-logo.png": "/patient_dashboard/static/media/fhir-dashboard-logo.7f2c5a70.png",
     "static/media/fhir-logo-long.png": "/patient_dashboard/static/media/fhir-logo-long.526965d0.png",
     "static/media/Header.css": "/patient_dashboard/static/media/homebg.15663ee6.jpg",
@@ -24,9 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1e20edb6.js",
-    "static/css/2.de023833.chunk.css",
-    "static/js/2.c5344b12.chunk.js",
+    "static/css/2.b45a2824.chunk.css",
+    "static/js/2.b1796c27.chunk.js",
     "static/css/main.371bf961.chunk.css",
-    "static/js/main.d0ac0c72.chunk.js"
+    "static/js/main.be0b7573.chunk.js"
   ]
 }

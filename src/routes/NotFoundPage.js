@@ -1,31 +1,29 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "../components/Header";
 import { Result, Button } from "antd";
-import { useLocation, useHistory, useRouteMatch, Redirect } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
-const NotFoundPage = props => {
+const NotFoundPage = () => {
   const location = useLocation();
-  const history = useHistory();
-  const match = useRouteMatch("/");
+  const navigate = useNavigate();
 
-  console.log(location, match);
-
-  //add special redirect rule for gh pages
+  // Special redirect rule for GitHub Pages deployment
   if (
     location.hash === "" &&
-    (location.pathname == "/GOSH-FHIRworks2020-React-Dashboard" ||
-      location.pathname == "/GOSH-FHIRworks2020-React-Dashboard/")
+    (location.pathname === "/GOSH-FHIRworks2020-React-Dashboard" ||
+      location.pathname === "/GOSH-FHIRworks2020-React-Dashboard/")
   ) {
-    return <Redirect to="/" />;
+    return <Navigate to="/home" replace />;
   }
 
   const returnHome = () => {
-    history.push("/");
+    navigate("/home");
   };
 
   return (
     <div>
-      <Header title="404 Not Found"></Header>
+      <Header title="404 Not Found" />
       <Result
         status="404"
         title="404"

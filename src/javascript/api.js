@@ -97,6 +97,11 @@ function parseAllPatientData(patients) {
  
 
      // let patient = new Object();
+     let patient = {}; // or some default object
+
+patient.name = 'John Doe';
+// other assignments...
+
     patient.name = element.name?.[0]?.family + " " + element.name?.[0]?.given?.[0];
     patient.id = element.id;
     patient.phone = element.telecom?.[0]?.value;
